@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo's World - Tech Security & Cyber Defense</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #1e3a8a;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: transform 0.2s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #1e3a8a;
+        }
+        
+        .services {
+            background: #f8fafc;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        
+        .service-card h3 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .about {
+            background: white;
+        }
+        
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .contact {
+            background: #f8fafc;
+            text-align: center;
+        }
+        
+        .contact-info {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.2em;
+        }
+        
+        .contact-info a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1.1em;
+            }
+            
+            h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Enzo's World</h1>
+        <p>Tech Security & Cyber Defense for Modern Businesses</p>
+        <a href="#contact" class="cta-button">Get Protected Today</a>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>🔒 Security Audits</h3>
+                <p>Comprehensive assessment of your systems to identify vulnerabilities and security gaps before attackers do.</p>
+            </div>
+            <div class="service-card">
+                <h3>🛡️ Penetration Testing</h3>
+                <p>Real-world attack simulations to test your defenses and strengthen your security posture.</p>
+            </div>
+            <div class="service-card">
+                <h3>🔍 Vulnerability Assessment</h3>
+                <p>Systematic review of security weaknesses in your infrastructure, applications, and network.</p>
+            </div>
+            <div class="service-card">
+                <h3>⚡ Incident Response</h3>
+                <p>Rapid response and recovery support when security incidents occur to minimize damage and downtime.</p>
+            </div>
+            <div class="service-card">
+                <h3>📚 Security Training</h3>
+                <p>Employee awareness programs and phishing simulations to build a human firewall in your organization.</p>
+            </div>
+            <div class="service-card">
+                <h3>🎯 Compliance Support</h3>
+                <p>Guidance and implementation support for security standards and regulatory compliance requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Enzo's World</h2>
+        <div class="about-content">
+            <p>We protect small and mid-size businesses from cyber threats with affordable, enterprise-grade security solutions. In today's digital landscape, security isn't optional—it's essential.</p>
+            <br>
+            <p>With expertise in penetration testing, vulnerability assessments, and security architecture, we help organizations detect threats early, respond quickly, and build resilient defenses that grow with your business.</p>
+            <br>
+            <p>Our mission is simple: keep your data safe, your systems secure, and your business running without interruption.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <p>Ready to secure your business? Let's talk about your security needs.</p>
+            <br>
+            <p>Email: <a href="mailto:contact@enzos-world.com">contact@enzos-world.com</a></p>
+            <br>
+            <p>We respond to all inquiries within 24 hours.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enzo's World. Protecting businesses from cyber threats.</p>
+    </footer>
+</body>
+</html>
